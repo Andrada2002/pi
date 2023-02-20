@@ -23,6 +23,7 @@ public class viewDetailDoc extends javax.swing.JFrame {
      */
     public viewDetailDoc() {
         initComponents();
+         this.setLocationRelativeTo(null);
     }
 
     /**
@@ -54,7 +55,7 @@ public class viewDetailDoc extends javax.swing.JFrame {
                 {null, null, null, null}
             },
             new String [] {
-                "ID", "DOCTOR NAME", "DOCTOR PHONE", "DOCTOR EMAIL"
+                "CNP", "DOCTOR NAME", "DOCTOR PHONE", "DOCTOR EMAIL"
             }
         ));
         jScrollPane1.setViewportView(jTable1);
@@ -157,7 +158,7 @@ public class viewDetailDoc extends javax.swing.JFrame {
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         // TODO add your handling code here:
-         LoginPage obj = new LoginPage();
+         LoginForm obj = new LoginForm();
         obj.setVisible(true);
         dispose();
         

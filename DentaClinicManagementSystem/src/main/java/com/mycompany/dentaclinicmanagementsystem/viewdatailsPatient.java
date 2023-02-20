@@ -23,6 +23,7 @@ public class viewdatailsPatient extends javax.swing.JFrame {
      */
     public viewdatailsPatient() {
         initComponents();
+         this.setLocationRelativeTo(null);
     }
 
     /**
@@ -152,7 +153,7 @@ public class viewdatailsPatient extends javax.swing.JFrame {
 
     private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
         // TODO add your handling code here:
-              LoginPage obj = new LoginPage();
+              LoginForm obj = new LoginForm();
         obj.setVisible(true);
         dispose();
     }//GEN-LAST:event_jButton3ActionPerformed
